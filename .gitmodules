@@ -16,3 +16,6 @@
 [submodule "visual-explainer"]
 	path = visual-explainer
 	url = https://github.com/nicobailon/visual-explainer
+[submodule "sentry-cli"]
+	path = sentry-cli
+	url = https://github.com/diegopetrucci/sentry-cli

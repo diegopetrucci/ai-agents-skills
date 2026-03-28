@@ -9,7 +9,7 @@ Skills I tend to use.
 - [Agent workflow audit](https://github.com/diegopetrucci/agent-workflow-audit): stress-test a repo's agent-facing workflow and report where instructions, commands, or context are wasteful, ambiguous, or missing
 - [Odds API](https://github.com/diegopetrucci/odds-api-io): I do not personally bet, but odds are a good way to gauge the likelihood of something happening
 - [Tfl-journey-disruption](https://github.com/diegopetrucci/tfl-journey-disruption): used with personal agents to be notified of delays in London
-- [Sentry CLI](https://github.com/diegopetrucci/ai-agents-skills/tree/main/sentry-cli): giving agents tools to interface with Sentry's error reporting
+- [Sentry CLI](https://github.com/diegopetrucci/sentry-cli): giving agents tools to interface with Sentry's error reporting
 
 ### Skills from 3rd parties
 - [Skills creator](https://github.com/diegopetrucci/ai-agents-skills/tree/main/skill-creator): Anthropic's skill to create ad-hoc skills. [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
