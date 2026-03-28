@@ -13,4 +13,4 @@ Skills I tend to use.
 
 ### Skills from 3rd parties
 - [Skills creator](https://github.com/diegopetrucci/ai-agents-skills/tree/main/skill-creator): Anthropic's skill to create ad-hoc skills. [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
-- [Visual explainer](https://github.com/diegopetrucci/ai-agents-skills/tree/main/visual-explainer): fantastic tool to visualise repos, changes, and flows. [Source](https://github.com/nicobailon/visual-explainer/)
+- [Visual explainer](https://github.com/nicobailon/visual-explainer/): fantastic tool to visualise repos, changes, and flows

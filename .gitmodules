@@ -13,3 +13,6 @@
 [submodule "odds-api-io"]
 	path = odds-api-io
 	url = https://github.com/diegopetrucci/odds-api-io
+[submodule "visual-explainer"]
+	path = visual-explainer
+	url = https://github.com/nicobailon/visual-explainer
