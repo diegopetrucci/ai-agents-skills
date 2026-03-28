@@ -4,3 +4,6 @@
 [submodule "pr-comments-triage"]
 	path = pr-comments-triage
 	url = https://github.com/diegopetrucci/pr-comments-triage
+[submodule "agent-workflow-audit"]
+	path = agent-workflow-audit
+	url = https://github.com/diegopetrucci/agent-workflow-audit
