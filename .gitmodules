@@ -7,3 +7,6 @@
 [submodule "agent-workflow-audit"]
 	path = agent-workflow-audit
 	url = https://github.com/diegopetrucci/agent-workflow-audit
+[submodule "tfl-journey-disruption"]
+	path = tfl-journey-disruption
+	url = https://github.com/diegopetrucci/tfl-journey-disruption
