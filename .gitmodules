@@ -10,3 +10,6 @@
 [submodule "tfl-journey-disruption"]
 	path = tfl-journey-disruption
 	url = https://github.com/diegopetrucci/tfl-journey-disruption
+[submodule "odds-api-io"]
+	path = odds-api-io
+	url = https://github.com/diegopetrucci/odds-api-io
