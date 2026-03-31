@@ -1,0 +1,41 @@
+{
+  "name": "diegopetrucci-claude-plugins",
+  "owner": {
+    "name": "Diego Petrucci"
+  },
+  "metadata": {
+    "description": "A collection of Claude Code skills"
+  },
+  "plugins": [
+    {
+      "name": "pr-comments-triage",
+      "source": { "source": "github", "repo": "diegopetrucci/pr-comments-triage" },
+      "description": "Critically evaluate PR review comments against actual code",
+      "category": "code-review"
+    },
+    {
+      "name": "agent-workflow-audit",
+      "source": { "source": "github", "repo": "diegopetrucci/agent-workflow-audit" },
+      "description": "Stress-test a repo's agent-facing workflow and report issues",
+      "category": "developer-tools"
+    },
+    {
+      "name": "odds-api-io",
+      "source": { "source": "github", "repo": "diegopetrucci/odds-api-io" },
+      "description": "Query Odds-API.io for sports events and betting odds",
+      "category": "data"
+    },
+    {
+      "name": "tfl-journey-disruption",
+      "source": { "source": "github", "repo": "diegopetrucci/tfl-journey-disruption" },
+      "description": "Plan TfL journeys and warn about disruptions",
+      "category": "personal"
+    },
+    {
+      "name": "sentry-cli",
+      "source": { "source": "github", "repo": "diegopetrucci/sentry-cli" },
+      "description": "Interface with Sentry's error reporting from agents",
+      "category": "developer-tools"
+    }
+  ]
+}
