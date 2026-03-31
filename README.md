@@ -2,17 +2,6 @@
 
 Skills I tend to use.
 
-## Install as plugins
-
-This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces). Add it once, then install whichever plugins you want:
-
-```shell
-/plugin marketplace add diegopetrucci/ai-agents-skills
-/plugin install pr-comments-triage@diegopetrucci-claude-plugins
-```
-
-Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`.
-
 ### Skills I created
 
 - [iOS](https://github.com/diegopetrucci/ios-agents-skills): skills for developing on Apple platforms
@@ -25,3 +14,26 @@ Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, 
 ### Skills from 3rd parties
 - [Skills creator](https://github.com/diegopetrucci/ai-agents-skills/tree/main/skill-creator): Anthropic's skill to create ad-hoc skills. [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
 - [Visual explainer](https://github.com/nicobailon/visual-explainer/): fantastic tool to visualise repos, changes, and flows
+
+## Installation
+
+### As skills
+
+```bash
+npx skills add https://github.com/diegopetrucci/pr-comments-triage --skill pr-comments-triage
+npx skills add https://github.com/diegopetrucci/agent-workflow-audit --skill agent-workflow-audit
+npx skills add https://github.com/diegopetrucci/odds-api-io --skill odds-api-io
+npx skills add https://github.com/diegopetrucci/tfl-journey-disruption --skill tfl-journey-disruption
+npx skills add https://github.com/diegopetrucci/sentry-cli --skill sentry-cli
+```
+
+### As Claude Code plugins
+
+This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces). Add it once, then install whichever plugins you want:
+
+```shell
+/plugin marketplace add diegopetrucci/ai-agents-skills
+/plugin install pr-comments-triage@diegopetrucci-claude-plugins
+```
+
+Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`.
