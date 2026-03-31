@@ -2,6 +2,17 @@
 
 Skills I tend to use.
 
+## Install as plugins
+
+This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces). Add it once, then install whichever plugins you want:
+
+```shell
+/plugin marketplace add diegopetrucci/ai-agents-skills
+/plugin install pr-comments-triage@diegopetrucci-claude-plugins
+```
+
+Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`.
+
 ### Skills I created
 
 - [iOS](https://github.com/diegopetrucci/ios-agents-skills): skills for developing on Apple platforms
