@@ -19,3 +19,6 @@
 [submodule "sentry-cli"]
 	path = sentry-cli
 	url = https://github.com/diegopetrucci/sentry-cli
+[submodule "remove-ai-code-slop"]
+	path = remove-ai-code-slop
+	url = https://github.com/diegopetrucci/remove-ai-code-slop.git
