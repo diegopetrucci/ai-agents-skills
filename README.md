@@ -26,6 +26,7 @@ npx skills add https://github.com/diegopetrucci/agent-workflow-audit --skill age
 npx skills add https://github.com/diegopetrucci/odds-api-io --skill odds-api-io
 npx skills add https://github.com/diegopetrucci/tfl-journey-disruption --skill tfl-journey-disruption
 npx skills add https://github.com/diegopetrucci/sentry-cli --skill sentry-cli
+npx skills add https://github.com/diegopetrucci/remove-ai-code-slop --skill remove-ai-code-slop
 ```
 
 ### As Claude Code plugins
@@ -37,4 +38,4 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 /plugin install pr-comments-triage@diegopetrucci-claude-plugins
 ```
 
-Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`.
+Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`, `remove-ai-code-slop`.

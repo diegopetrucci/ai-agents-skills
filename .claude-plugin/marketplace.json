@@ -36,6 +36,12 @@
       "source": { "source": "github", "repo": "diegopetrucci/sentry-cli" },
       "description": "Interface with Sentry's error reporting from agents",
       "category": "developer-tools"
+    },
+    {
+      "name": "remove-ai-code-slop",
+      "source": { "source": "github", "repo": "diegopetrucci/remove-ai-code-slop" },
+      "description": "Scan a branch's diff and remove AI-generated code slop",
+      "category": "developer-tools"
     }
   ]
 }
