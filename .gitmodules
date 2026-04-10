@@ -22,3 +22,6 @@
 [submodule "remove-ai-code-slop"]
 	path = remove-ai-code-slop
 	url = https://github.com/diegopetrucci/remove-ai-code-slop.git
+[submodule "prd-interviewer"]
+	path = prd-interviewer
+	url = https://github.com/diegopetrucci/prd-interviewer
