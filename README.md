@@ -40,4 +40,11 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 /plugin install pr-comments-triage@diegopetrucci-claude-plugins
 ```
 
-Available plugins: `pr-comments-triage`, `prd-interviewer`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`, `remove-ai-code-slop`.
+Available plugins:
+- `agent-workflow-audit`
+- `odds-api-io`
+- `pr-comments-triage`
+- `prd-interviewer`
+- `remove-ai-code-slop`
+- `sentry-cli`
+- `tfl-journey-disruption`
