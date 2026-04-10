@@ -7,6 +7,7 @@ Skills I tend to use.
 - [Agent workflow audit](https://github.com/diegopetrucci/agent-workflow-audit): stress-test a repo's agent-facing workflow and report where instructions, commands, or context are wasteful, ambiguous, or missing
 - [iOS](https://github.com/diegopetrucci/ios-agents-skills): skills for developing on Apple platforms
 - [Odds API](https://github.com/diegopetrucci/odds-api-io): I do not personally bet, but odds are a good way to gauge the likelihood of something happening
+- [PRD interviewer](https://github.com/diegopetrucci/prd-interviewer): builds a detailed PRD through a focused, one-question-at-a-time interview
 - [PR comments triage](https://github.com/diegopetrucci/pr-comments-triage): critically evaluate PR review comments against actual code, investigating each for validity before implementing
 - [Remove AI code slop](https://github.com/diegopetrucci/remove-ai-code-slop): scans your branch's diff and removes telltale signs of AI-generated code
 - [Sentry CLI](https://github.com/diegopetrucci/sentry-cli): giving agents tools to interface with Sentry's error reporting
@@ -26,6 +27,7 @@ npx skills add https://github.com/diegopetrucci/agent-workflow-audit --skill age
 npx skills add https://github.com/diegopetrucci/odds-api-io --skill odds-api-io
 npx skills add https://github.com/diegopetrucci/tfl-journey-disruption --skill tfl-journey-disruption
 npx skills add https://github.com/diegopetrucci/sentry-cli --skill sentry-cli
+npx skills add https://github.com/diegopetrucci/prd-interviewer --skill prd-interviewer
 npx skills add https://github.com/diegopetrucci/remove-ai-code-slop --skill remove-ai-code-slop
 ```
 
@@ -38,4 +40,4 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 /plugin install pr-comments-triage@diegopetrucci-claude-plugins
 ```
 
-Available plugins: `pr-comments-triage`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`, `remove-ai-code-slop`.
+Available plugins: `pr-comments-triage`, `prd-interviewer`, `agent-workflow-audit`, `odds-api-io`, `tfl-journey-disruption`, `sentry-cli`, `remove-ai-code-slop`.
