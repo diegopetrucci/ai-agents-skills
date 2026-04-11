@@ -10,6 +10,7 @@ Skills I tend to use.
 - [PRD interviewer](https://github.com/diegopetrucci/prd-interviewer): builds a detailed PRD through a focused, one-question-at-a-time interview
 - [PR comments triage](https://github.com/diegopetrucci/pr-comments-triage): critically evaluate PR review comments against actual code, investigating each for validity before implementing
 - [Remove AI code slop](https://github.com/diegopetrucci/remove-ai-code-slop): scans your branch's diff and removes telltale signs of AI-generated code
+- [Starting from scratch](https://github.com/diegopetrucci/starting-from-scratch): reviews a codebase and says what should change if you were starting again from scratch
 - [Sentry CLI](https://github.com/diegopetrucci/sentry-cli): giving agents tools to interface with Sentry's error reporting
 - [Tfl-journey-disruption](https://github.com/diegopetrucci/tfl-journey-disruption): used with personal agents to be notified of delays in London
 
@@ -29,6 +30,7 @@ npx skills add https://github.com/diegopetrucci/tfl-journey-disruption --skill t
 npx skills add https://github.com/diegopetrucci/sentry-cli --skill sentry-cli
 npx skills add https://github.com/diegopetrucci/prd-interviewer --skill prd-interviewer
 npx skills add https://github.com/diegopetrucci/remove-ai-code-slop --skill remove-ai-code-slop
+npx skills add https://github.com/diegopetrucci/starting-from-scratch --skill starting-from-scratch
 ```
 
 ### As Claude Code plugins
@@ -47,4 +49,5 @@ Available plugins:
 - `prd-interviewer`
 - `remove-ai-code-slop`
 - `sentry-cli`
+- `starting-from-scratch`
 - `tfl-journey-disruption`

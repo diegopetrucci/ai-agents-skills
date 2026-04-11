@@ -25,3 +25,6 @@
 [submodule "prd-interviewer"]
 	path = prd-interviewer
 	url = https://github.com/diegopetrucci/prd-interviewer
+[submodule "starting-from-scratch"]
+	path = starting-from-scratch
+	url = git@github.com:diegopetrucci/starting-from-scratch.git
