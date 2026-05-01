@@ -46,11 +46,3 @@ codex plugin marketplace add diegopetrucci/ai-agents-skills
 ```
 
 Restart Codex, then install plugins from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
-
-## Validation
-
-Validate the Codex marketplace and plugin manifests with:
-
-```bash
-python3 scripts/validate_codex_plugins.py
-```
