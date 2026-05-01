@@ -36,3 +36,13 @@ And then install your desired plugin, eg:
 ```bash
 /plugin install agent-workflow-audit@diegopetrucci-claude-plugins
 ```
+
+### As Codex plugins
+
+Add this repo to Codex marketplaces:
+
+```bash
+codex plugin marketplace add diegopetrucci/ai-agents-skills
+```
+
+Restart Codex, then install plugins from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
