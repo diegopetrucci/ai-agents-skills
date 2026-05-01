@@ -28,3 +28,6 @@
 [submodule "starting-from-scratch"]
 	path = starting-from-scratch
 	url = git@github.com:diegopetrucci/starting-from-scratch.git
+[submodule "github-librarian"]
+	path = github-librarian
+	url = git@github.com:diegopetrucci/github-librarian.git

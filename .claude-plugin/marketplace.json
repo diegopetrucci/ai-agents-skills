@@ -20,6 +20,12 @@
       "category": "developer-tools"
     },
     {
+      "name": "github-librarian",
+      "source": { "source": "github", "repo": "diegopetrucci/github-librarian" },
+      "description": "Investigate GitHub via `gh` in an isolated subagent and return concise, path-first findings with line-ranged evidence",
+      "category": "developer-tools"
+    },
+    {
       "name": "odds-api-io",
       "source": { "source": "github", "repo": "diegopetrucci/odds-api-io" },
       "description": "Query Odds-API.io for sports events and betting odds",

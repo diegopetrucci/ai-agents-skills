@@ -5,6 +5,7 @@ Skills I tend to use.
 ### Skills I created
 
 - [Agent workflow audit](https://github.com/diegopetrucci/agent-workflow-audit): stress-test a repo's agent-facing workflow and report where instructions, commands, or context are wasteful, ambiguous, or missing
+- [GitHub librarian](https://github.com/diegopetrucci/github-librarian): GitHub code research via `gh` that returns concise path-first findings with line-ranged evidence
 - [iOS](https://github.com/diegopetrucci/ios-agents-skills): skills for developing on Apple platforms
 - [Odds API](https://github.com/diegopetrucci/odds-api-io): I do not personally bet, but odds are a good way to gauge the likelihood of something happening
 - [PRD interviewer](https://github.com/diegopetrucci/prd-interviewer): builds a detailed PRD through a focused, one-question-at-a-time interview
@@ -25,6 +26,7 @@ Skills I tend to use.
 ```bash
 npx skills add https://github.com/diegopetrucci/pr-comments-triage --skill pr-comments-triage
 npx skills add https://github.com/diegopetrucci/agent-workflow-audit --skill agent-workflow-audit
+npx skills add https://github.com/diegopetrucci/github-librarian --skill github-librarian
 npx skills add https://github.com/diegopetrucci/odds-api-io --skill odds-api-io
 npx skills add https://github.com/diegopetrucci/tfl-journey-disruption --skill tfl-journey-disruption
 npx skills add https://github.com/diegopetrucci/sentry-cli --skill sentry-cli
@@ -44,6 +46,7 @@ This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/
 
 Available plugins:
 - `agent-workflow-audit`
+- `github-librarian`
 - `odds-api-io`
 - `pr-comments-triage`
 - `prd-interviewer`
