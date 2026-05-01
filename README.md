@@ -1,8 +1,6 @@
-# AI agents' skills
+# AI agents skills
 
-Skills I tend to use.
-
-### Skills I created
+A collection of agent skills I made:
 
 - [Agent workflow audit](https://github.com/diegopetrucci/agent-workflow-audit): stress-test a repo's agent-facing workflow and report where instructions, commands, or context are wasteful, ambiguous, or missing
 - [GitHub librarian](https://github.com/diegopetrucci/github-librarian): GitHub code research via `gh` that returns concise path-first findings with line-ranged evidence
@@ -15,42 +13,26 @@ Skills I tend to use.
 - [Sentry CLI](https://github.com/diegopetrucci/sentry-cli): giving agents tools to interface with Sentry's error reporting
 - [Tfl-journey-disruption](https://github.com/diegopetrucci/tfl-journey-disruption): used with personal agents to be notified of delays in London
 
-### Skills from 3rd parties
-- [Skills creator](https://github.com/diegopetrucci/ai-agents-skills/tree/main/skill-creator): Anthropic's skill to create ad-hoc skills. [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
-- [Visual explainer](https://github.com/nicobailon/visual-explainer/): fantastic tool to visualise repos, changes, and flows
-
 ## Installation
 
 ### As skills
 
 ```bash
-npx skills add https://github.com/diegopetrucci/pr-comments-triage --skill pr-comments-triage
 npx skills add https://github.com/diegopetrucci/agent-workflow-audit --skill agent-workflow-audit
-npx skills add https://github.com/diegopetrucci/github-librarian --skill github-librarian
-npx skills add https://github.com/diegopetrucci/odds-api-io --skill odds-api-io
-npx skills add https://github.com/diegopetrucci/tfl-journey-disruption --skill tfl-journey-disruption
-npx skills add https://github.com/diegopetrucci/sentry-cli --skill sentry-cli
-npx skills add https://github.com/diegopetrucci/prd-interviewer --skill prd-interviewer
-npx skills add https://github.com/diegopetrucci/remove-ai-code-slop --skill remove-ai-code-slop
-npx skills add https://github.com/diegopetrucci/starting-from-scratch --skill starting-from-scratch
 ```
+
+Replace `agent-workflow-audit` with any of the above.
 
 ### As Claude Code plugins
 
-This repo is a [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces). Add it once, then install whichever plugins you want:
+Add this repo to the available marketplaces:
 
-```shell
+```bash
 /plugin marketplace add diegopetrucci/ai-agents-skills
-/plugin install pr-comments-triage@diegopetrucci-claude-plugins
 ```
 
-Available plugins:
-- `agent-workflow-audit`
-- `github-librarian`
-- `odds-api-io`
-- `pr-comments-triage`
-- `prd-interviewer`
-- `remove-ai-code-slop`
-- `sentry-cli`
-- `starting-from-scratch`
-- `tfl-journey-disruption`
+And then install your desired plugin, eg:
+
+```bash
+/plugin install agent-workflow-audit@diegopetrucci-claude-plugins
+```
