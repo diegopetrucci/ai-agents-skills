@@ -1,0 +1,138 @@
+{
+  "name": "diegopetrucci-agent-skills",
+  "interface": {
+    "displayName": "Diego Petrucci Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "agent-workflow-audit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/agent-workflow-audit.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "github-librarian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/github-librarian.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ios-agents-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/ios-agents-skills.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "odds-api-io",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/odds-api-io.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "pr-comments-triage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/pr-comments-triage.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Code Review"
+    },
+    {
+      "name": "prd-interviewer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/prd-interviewer.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "remove-ai-code-slop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/remove-ai-code-slop.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sentry-cli",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/sentry-cli.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "starting-from-scratch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/starting-from-scratch.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "tfl-journey-disruption",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diegopetrucci/tfl-journey-disruption.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
