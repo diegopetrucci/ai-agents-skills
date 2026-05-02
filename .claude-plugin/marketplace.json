@@ -54,6 +54,12 @@
       "source": { "source": "github", "repo": "diegopetrucci/starting-from-scratch" },
       "description": "Say what should change if the project were started again",
       "category": "developer-tools"
+    },
+    {
+      "name": "rebase-and-fix-conflicts",
+      "source": { "source": "github", "repo": "diegopetrucci/rebase-and-fix-conflicts" },
+      "description": "Rebase a branch onto main and resolve conflicts",
+      "category": "developer-tools"
     }
   ]
 }

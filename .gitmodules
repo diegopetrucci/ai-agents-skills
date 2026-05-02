@@ -28,3 +28,6 @@
 [submodule "github-librarian"]
 	path = github-librarian
 	url = git@github.com:diegopetrucci/github-librarian.git
+[submodule "rebase-and-fix-conflicts"]
+	path = rebase-and-fix-conflicts
+	url = https://github.com/diegopetrucci/rebase-and-fix-conflicts.git
