@@ -4,7 +4,6 @@ A collection of agent skills I made:
 
 - [Agent workflow audit](https://github.com/diegopetrucci/agent-workflow-audit): stress-test a repo's agent-facing workflow and report where instructions, commands, or context are wasteful, ambiguous, or missing
 - [GitHub librarian](https://github.com/diegopetrucci/github-librarian): GitHub code research via `gh` that returns concise path-first findings with line-ranged evidence
-- [iOS](https://github.com/diegopetrucci/ios-agents-skills): skills for developing on Apple platforms
 - [Odds API](https://github.com/diegopetrucci/odds-api-io): I do not personally bet, but odds are a good way to gauge the likelihood of something happening
 - [PR comments triage](https://github.com/diegopetrucci/pr-comments-triage): critically evaluate PR review comments against actual code, investigating each for validity before implementing
 - [PRD interviewer](https://github.com/diegopetrucci/prd-interviewer): builds a detailed PRD through a focused, one-question-at-a-time interview

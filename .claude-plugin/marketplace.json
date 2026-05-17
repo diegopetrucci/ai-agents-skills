@@ -14,6 +14,12 @@
       "category": "code-review"
     },
     {
+      "name": "prd-interviewer",
+      "source": { "source": "github", "repo": "diegopetrucci/prd-interviewer" },
+      "description": "Iteratively interview the user to build a detailed PRD, one question at a time",
+      "category": "productivity"
+    },
+    {
       "name": "agent-workflow-audit",
       "source": { "source": "github", "repo": "diegopetrucci/agent-workflow-audit" },
       "description": "Stress-test a repo's agent-facing workflow and report issues",
