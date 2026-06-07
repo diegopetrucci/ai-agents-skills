@@ -28,3 +28,6 @@
 [submodule "rebase-and-fix-conflicts"]
 	path = rebase-and-fix-conflicts
 	url = https://github.com/diegopetrucci/rebase-and-fix-conflicts.git
+[submodule "illustrations-to-explain-things"]
+	path = illustrations-to-explain-things
+	url = https://github.com/diegopetrucci/illustrations-to-explain-things

@@ -66,6 +66,12 @@
       "source": { "source": "github", "repo": "diegopetrucci/rebase-and-fix-conflicts" },
       "description": "Rebase a branch onto main and resolve conflicts",
       "category": "developer-tools"
+    },
+    {
+      "name": "illustrations-to-explain-things",
+      "source": { "source": "github", "repo": "diegopetrucci/illustrations-to-explain-things" },
+      "description": "Turn article ideas into memorable hand-drawn explainer illustrations",
+      "category": "productivity"
     }
   ]
 }
