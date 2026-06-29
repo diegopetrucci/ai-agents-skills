@@ -29,7 +29,7 @@ Replace `agent-workflow-audit` with any of the above.
 Add this repo to the available marketplaces:
 
 ```bash
-/plugin marketplace add diegopetrucci/ai-agent-skills
+/plugin marketplace add diegopetrucci/ai-agents-skills
 ```
 
 And then install your desired plugin, eg:
@@ -45,7 +45,7 @@ Run `/reload-plugins` in Claude Code to activate newly installed plugins in the 
 Add this repo to Codex marketplaces:
 
 ```bash
-codex plugin marketplace add diegopetrucci/ai-agent-skills
+codex plugin marketplace add diegopetrucci/ai-agents-skills
 ```
 
 Restart Codex, then install plugins from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
