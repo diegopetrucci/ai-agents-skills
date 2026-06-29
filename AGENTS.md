@@ -32,3 +32,8 @@ Recent history uses short, imperative commit subjects such as `Convert sentry-cl
 
 ## Security & Configuration Tips
 Do not commit secrets, API keys, or local config files. Skills that integrate with external services should document environment variables in their own repo or `SKILL.md`, not store credentials here.
+
+## Memory
+
+At the start of any task, run `gn help plan` and follow its instructions.
+After finishing a task, run `gn help review`.
